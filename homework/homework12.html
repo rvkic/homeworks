@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disc clone</title>
+
+    <style>
+
+        .sidebar {
+           display: flex;
+           flex-direction: row;
+           width: 150px;
+        }
+
+        .left {
+            width: 50px;
+            position: fixed;
+            left: 0px;
+            top: 0;
+            bottom: 0;
+            background-color: rgb(54, 54, 54);
+        }
+        .right {
+            
+            position: fixed;
+            left: 50px;
+            top: 0;
+            bottom: 0;
+            width: 120px;
+            background-color: rgb(87, 87, 87);
+        }
+
+        .cat1 {
+            width: 35px;
+            height: 35px;
+            border-radius: px;
+            margin-left: 7.5px;
+            margin-top: 10px;
+            border-radius: 17px;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        .tags {
+            margin-left: 10px;
+            font-size: 10px;
+            color: rgb(177, 177, 177);
+        }
+
+        .info {
+            margin-left: 10px;
+            font-weight: 700;
+            color: white;
+        }
+        .ll {
+            color: rgb(177, 177, 177);
+            margin-left: 40px;
+            font-weight: 500;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="sidebar">
+        <div class="left">
+            
+            <img class="cat1" src="1200px-RedCat_8727.jpg" alt="">
+            <img class="cat1" src="Cat_November_2010-1a.jpg" alt="">
+            <img class="cat1" src="thum.webp" alt="">
+        </div>
+        <div class="right">
+            <p class="info">
+                INFO <span class="ll">+</span>
+            </p>
+            <p class="tags"># new-video</p>
+            <p class="tags"># updates</p>
+            <p class="tags"># faq</p>
+        </div>        
+    </div>
+
+</body>
+</html>
